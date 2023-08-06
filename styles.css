@@ -1,4 +1,4 @@
-
+ 
 .calculator {
     padding: 10px;
     border-radius: 1em;
@@ -57,6 +57,37 @@
     .calculator {
       width: 90%;
     }
+   
+  }
+
+
+  /* Newly Added */
+  @media (max-width: 222px) {
+    .calculator {
+      width: 90%;
+    }
+    input[type=button] {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #64278f;
+      color: white;
+      border: solid black 0.5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      outline: none;
+      font-size:x-small ;
+    }
+    .display-box {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #dcdbe1;
+      border: solid black;
+      color: black;
+      border-radius: 5px;
+      width: 100%;
+      height: 16px;
+      font-size: x-small;
+    }
+   
   }
   
   
